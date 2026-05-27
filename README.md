@@ -24,6 +24,14 @@ pip install -r requirements.txt
 python tracking_2d.py
 ```
 
+### Prototip rapid IR
+
+```
+python tracking_ir.py --show
+```
+
+Acest script rulează o detecție rapidă a unui LED sau punct luminos și afișează coordonatele X/Y.
+
 ### Rulează cu OSC
 
 ```
