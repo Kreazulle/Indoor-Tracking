@@ -30,7 +30,13 @@ python tracking_2d.py
 python tracking_ir.py --show
 ```
 
-Acest script rulează o detecție rapidă a unui LED sau punct luminos și afișează coordonatele X/Y.
+Opțiuni utile:
+
+```
+python tracking_ir.py --show --fps 60 --width 640 --height 480
+```
+
+Acest script rulează o detecție rapidă a unui LED sau punct luminos și afișează coordonatele X/Y. Va afișa și diagnosticul camerei, inclusiv rezoluția efectivă și FPS-ul măsurat.
 
 ### Rulează cu OSC
 
